@@ -4,8 +4,8 @@ layout: default
 
 <style>
   .round-image {
-    width: 200px; /* Set the desired width */
-    height: 200px; /* Set the desired height */
+    width: 75%; /* Set the desired width */
+    height: 75%; /* Set the desired height */
     overflow: hidden;
     border-radius: 50%; /* Make the container round */
   }
@@ -14,6 +14,8 @@ layout: default
     width: 100%; /* Ensure the image takes the full width of the container */
     height: auto; /* Maintain the aspect ratio of the image */
     display: block; /* Remove extra space below the image */
+    transform: translate(0%, -25%); /* Move the image within the rounded container */
+    object-fit: cover; /* Ensure the image covers the entire container */
   }
 </style>
 
