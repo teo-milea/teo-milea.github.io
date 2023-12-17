@@ -6,28 +6,70 @@ layout: default
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">CV</h3>
+    <h3 class="fw-bold border-bottom pb-3 mb-5">Curriculum Vitae</h3>
+
     <div class="row g-5 mb-5">
       <div class="col-md-2">
         <h4>Education</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+          <p class="fw-bold">M.Sc. Cyber and Network Security</p>
+          <p>Politehnica University of Bucharest (2020-2022)</p>
+
+          <p class="fw-bold">B.Sc. Electrical Engineering and Computer Science</p>
+          <p>'Politehnica University of Bucharest (2016-2020)'</p>
       </div>
     </div>
+
     <div class="row g-5 mb-5">
       <div class="col-md-2">
-        <h4>Academic Experience</h4>
+        <h4>Work Experience</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+          <p class="fw-bold">Software Engineer (September 2021 - Present)</p>
+          <p>
+            <a href="https://github.com/OpenMined/PySyft">PySyft</a> is 
+            an open-source library for secure and private computation on remote
+            servers. My responsabilities in the team are diverse and I have worked
+            on multiples of its components over the years. Some notable projects
+            to which I have contributed are: 
+            <ul>
+              <li></li>
+            </ul>
+          </p>
+        
+          <p class="fw-bold">Python Backend Engineer (March 2021 - July 2021)</p>
+          <p>
+            Designed and built a scalable REST API for an accounting company. 
+            The API managed access and operations for a
+            cloud storage, task management, and email communication between 
+            the customers and the company associates.
+            Implemented scheduled tasks to help with the automation of 
+            recurrent workflows, using third-party APIs and HSM certificates. 
+            This project was done for a small IT company in Romania that worked
+            for one of the largest management 
+            <a href="https://mirus-group.eu/">company</a> in the country.
+          </p>
+
+          <p class="fw-bold">Research Engineer (March 2020 - October 2020)</p>
+          <p>Worked at 
+            <a href="https://www.crc.mines-paristech.fr/en/">CRC Mines ParisTech</a>
+            where I developed an 
+            <a href="https://github.com/teo-milea/Demo">interactive holographic interface</a>
+            using computer vision to detect gestures that enabled user commands for a camera in a 
+            <a href="https://github.com/teo-milea/MeshImporter">simulated environment</a> 
+            with a remote physics engine.
+          </p>
+
+          <p class="fw-bold">Machine Learning Intern (June 2018 - October 2018)</p>
+          <p>Implemented an <a href="https://github.com/teo-milea/pesq_ml">algorithm</a> 
+            that predicted Mean Opinion Score and 
+            Perceptual Evaluation of Speech Quality for VoIP and VoLTE calls, 
+            using machine learning techniques. Developed for 
+            <a href="https://en.wikipedia.org/wiki/Ixia_(company)">Ixia@Keysight</a>
+          </p>
       </div>
     </div>
+
   </div>
 </div>
